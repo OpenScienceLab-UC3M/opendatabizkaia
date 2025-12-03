@@ -367,8 +367,8 @@ h3 {
 
 /* ====== PÁGINA RESPONSIVA ====== */
 @media (max-width: 768px) {
-    .hero h1 {
-        font-size: 24pt;
+    h1 {
+        font-size: 16pt;
     }
 
     h2 {
@@ -389,8 +389,8 @@ h3 {
 }
 
 @media (max-width: 480px) {
-    .hero h1 {
-        font-size: 20pt;
+    h1 {
+        font-size: 16pt;
     }
 
     h2 {
@@ -408,10 +408,3 @@ h3 {
     transform: scale(1.05);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
-
-
-
-
-
-
-
