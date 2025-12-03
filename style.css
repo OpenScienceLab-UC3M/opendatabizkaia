@@ -100,7 +100,7 @@ header {
 
 /* ====== CONTENIDO PRINCIPAL (ARTÍCULO) ====== */
 main.article {
-    max-width: 900px; /* Estrechar el contenedor principal */
+    max-width: 800px; /* Estrechar el contenedor principal */
     margin: 40px auto;
     padding: 20px;
 }
@@ -293,6 +293,17 @@ a:hover {
     color: #e3666a; /* Color al pasar el mouse */
 }
 
+.video-container {
+	max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.video-container iframe {
+    max-width: 100%;
+    height: auto;
+}
 
 /* Estilos para mobile */
 @media (max-width: 768px) {
@@ -356,3 +367,5 @@ a:hover {
         font-size: 14px; /* Reducir aún más el tamaño de las listas en mobile */
     }
 }
+
+
